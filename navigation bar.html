@@ -4,11 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Techfest | Digital Presence</title>
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
-  
-  <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
   <style>
@@ -25,7 +21,7 @@
       color: white;
     }
 
-    /* Glassmorphism Navbar */
+   
     nav {
       position: fixed;
       top: 30px;
@@ -113,7 +109,7 @@
       color: #ddd;
     }
 
-    /* Section Colors */
+  
     #home { background-color: rgba(0,0,0,0.1); }
     #tasks { background-color: rgba(10,10,40,0.2); }
     #rewards { background-color: rgba(30,10,50,0.2); }
@@ -175,7 +171,7 @@
 </head>
 <body>
 
-  <!-- Futuristic Centered Navbar -->
+
   <nav>
     <div class="nav-logo">Techfest</div>
     <div class="nav-links" id="navLinks">
@@ -192,7 +188,7 @@
     </div>
   </nav>
 
-  <!-- Sections -->
+
   <section id="home">
     <h1>Welcome to Techfest</h1>
     <p>Be the developer who fuels the engine of Asia’s biggest tech movement.</p>
@@ -219,7 +215,7 @@
   </section>
 
   <script>
-  // Hamburger menu toggle
+ 
   document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.getElementById('hamburger');
     const navLinks = document.getElementById('navLinks');
@@ -227,7 +223,7 @@
       navLinks.classList.toggle('open');
       hamburger.classList.toggle('active');
     });
-    // Optional: close menu on link click (mobile UX)
+    
     navLinks.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         navLinks.classList.remove('open');
